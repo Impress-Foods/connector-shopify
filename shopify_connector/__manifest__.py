@@ -13,7 +13,7 @@
         "delivery",
         "stock_delivery",
         "account",
-        "queue_job",
+        "integration_queue_job",
         "website_sale",
     ],
     "data": [

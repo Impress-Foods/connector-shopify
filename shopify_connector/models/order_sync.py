@@ -12,7 +12,7 @@ from odoo.exceptions import UserError
 from odoo.fields import Command
 from odoo.service.model import PG_CONCURRENCY_EXCEPTIONS_TO_RETRY
 
-from odoo.addons.queue_job.exception import RetryableJobError
+from odoo.addons.integration_queue_job.exception import RetryableJobError
 
 from ..graphql.order import (
     DRAFT_ORDER_BY_ID_QUERY,

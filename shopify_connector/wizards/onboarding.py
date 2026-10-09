@@ -3,7 +3,7 @@ from decimal import Decimal
 from odoo import api, fields, models
 from odoo.exceptions import UserError
 
-from odoo.addons.queue_job.delay import chain
+from odoo.addons.integration_queue_job.delay import chain
 
 from ..graphql import (
     CURRENT_APP_SCOPES_QUERY,

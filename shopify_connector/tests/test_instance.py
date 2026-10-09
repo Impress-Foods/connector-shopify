@@ -13,7 +13,7 @@ from odoo.tests.common import TransactionCase
 from odoo.tools import mute_logger
 from odoo.tools.safe_eval import safe_eval
 
-from odoo.addons.queue_job.exception import RetryableJobError
+from odoo.addons.integration_queue_job.exception import RetryableJobError
 
 from ..lib.client import ShopifyUserError
 from ..lib.webhook import verify_webhook_hmac
