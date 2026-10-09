@@ -2,7 +2,7 @@ from unittest.mock import MagicMock, patch
 
 from odoo.tests.common import TransactionCase
 
-from odoo.addons.queue_job.tests.common import trap_jobs
+from odoo.addons.integration_queue_job.tests.common import trap_jobs
 
 
 class TestShopifyInboundFulfillment(TransactionCase):

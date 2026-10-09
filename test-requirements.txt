@@ -1,0 +1,2 @@
+# integration_queue_job is not published on PyPI: install it from git
+odoo-addon-integration_queue_job @ git+https://github.com/Impress-Foods/integration-queue@19.0#subdirectory=integration_queue_job

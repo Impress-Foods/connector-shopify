@@ -8,7 +8,7 @@ import psycopg2
 from odoo import api, fields, models
 from odoo.exceptions import UserError, ValidationError
 
-from odoo.addons.queue_job.exception import RetryableJobError
+from odoo.addons.integration_queue_job.exception import RetryableJobError
 
 from ..graphql import (
     SHOP_QUERY,

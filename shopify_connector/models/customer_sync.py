@@ -6,7 +6,7 @@ from odoo import api, fields, models
 from odoo.exceptions import UserError
 from odoo.fields import Command
 
-from odoo.addons.queue_job.exception import RetryableJobError
+from odoo.addons.integration_queue_job.exception import RetryableJobError
 
 from ..graphql.customer import (
     CATALOGS_QUERY,

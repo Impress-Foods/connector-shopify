@@ -13,7 +13,7 @@
         "delivery",
         "stock_delivery",
         "account",
-        "queue_job",
+        "integration_queue_job",
     ],
     "data": [
         "security/shopify_security.xml",

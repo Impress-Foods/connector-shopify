@@ -4,7 +4,7 @@ from odoo import fields
 from odoo.exceptions import AccessError, UserError
 from odoo.tests.common import TransactionCase, new_test_user
 
-from odoo.addons.queue_job.exception import RetryableJobError
+from odoo.addons.integration_queue_job.exception import RetryableJobError
 
 from ..graphql.fulfillment import (
     FULFILLMENT_BY_ID_QUERY,

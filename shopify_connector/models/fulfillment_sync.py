@@ -9,7 +9,7 @@ from odoo.exceptions import UserError
 from odoo.fields import Command
 from odoo.tools import float_compare, float_is_zero, float_round
 
-from odoo.addons.queue_job.exception import RetryableJobError
+from odoo.addons.integration_queue_job.exception import RetryableJobError
 
 from ..graphql.fulfillment import (
     FULFILLMENT_BY_ID_QUERY,

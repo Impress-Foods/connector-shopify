@@ -2,7 +2,7 @@
 <odoo>
     <record id="queue_channel_shopify" model="queue.job.channel">
         <field name="name">shopify</field>
-        <field name="parent_id" ref="queue_job.channel_root" />
+        <field name="parent_id" ref="integration_queue_job.channel_root" />
         <field name="removal_interval">30</field>
     </record>
     <record id="queue_channel_shopify_import" model="queue.job.channel">

@@ -8,8 +8,8 @@ from odoo.exceptions import UserError
 from odoo.sql_db import db_connect
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
-from odoo.addons.queue_job.exception import RetryableJobError
-from odoo.addons.queue_job.tests.common import trap_jobs
+from odoo.addons.integration_queue_job.exception import RetryableJobError
+from odoo.addons.integration_queue_job.tests.common import trap_jobs
 from odoo.addons.shopify_connector.graphql.order import orders_updated_search
 from odoo.addons.shopify_connector.lib.client import ShopifyError
 

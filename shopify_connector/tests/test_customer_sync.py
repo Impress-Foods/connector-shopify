@@ -2,7 +2,7 @@ from unittest.mock import Mock, patch
 
 from odoo.tests.common import TransactionCase
 
-from odoo.addons.queue_job.exception import RetryableJobError
+from odoo.addons.integration_queue_job.exception import RetryableJobError
 
 from ..models.customer_sync import PHONE_MATCH_CANDIDATE_LIMIT
 
